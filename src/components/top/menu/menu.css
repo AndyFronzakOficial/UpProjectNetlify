@@ -50,5 +50,11 @@
     .brand{
         width: calc(100% - 12vmin);
     }
+    .iconMenu{
+        width: calc(16rem - 10vmin);
+        filter: invert();   
+        border-radius: 300px;
+        animation: boxIcon 5s infinite;
+    }
  }
  
