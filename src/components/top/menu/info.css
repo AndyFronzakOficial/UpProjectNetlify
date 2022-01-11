@@ -26,3 +26,17 @@
     transform: skew(-30deg);
     margin: 0 10px;
 }
+@media (max-width: 808.98px) { 
+
+    .linkInsta,.linkWpp{
+        color: #000;
+        font-weight: bold;
+        font-size: 0.5rem;
+        font-style: none;
+        list-style: none;
+        text-decoration: none;
+        padding: 4px;
+        margin: 10px;
+    }
+    
+}
