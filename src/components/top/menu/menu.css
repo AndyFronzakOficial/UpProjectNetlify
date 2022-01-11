@@ -43,7 +43,7 @@
 
 .navbar-dark, .bgPreto{
     background: #000;
-    animation: boxMenu 10.5s infinite;
+    animation: boxMenu 10s infinite;
 
 }
 @media (max-width: 808.98px) { 
