@@ -1,0 +1,28 @@
+.infoMenuBackground{
+    width: 100%;
+    height: 5vh;
+    background: #fff;
+}
+.ImgInsta,.ImgWpp{
+    width: 1.5rem;
+    padding: 2px;
+}
+
+
+.linkInsta,.linkWpp{
+    color: #000;
+    font-weight: bold;
+    font-size: 1.2rem;
+    font-style: none;
+    list-style: none;
+    text-decoration: none;
+    padding: 4px;
+    margin: 10px;
+}
+
+.blockVazio{
+    width: 10px;
+    background: #000;
+    transform: skew(-30deg);
+    margin: 0 10px;
+}
