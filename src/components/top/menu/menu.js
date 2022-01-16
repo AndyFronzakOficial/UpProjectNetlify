@@ -1,7 +1,7 @@
 import react from 'react';
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Info from "./info"
+
 
 import "./menu.css"
 
@@ -12,8 +12,7 @@ class Menu extends react.Component {
             <>
                    
 
-                <div className='containerMenu'>
-                <Info></Info>
+                <div className='scale-up-hor-right containerMenu'>
                     <div className="collapse" id="navbarToggleExternalContent">
                         <div className="bgPreto p-4">
                             <h5 className="text-white h4">Collapsed content</h5>

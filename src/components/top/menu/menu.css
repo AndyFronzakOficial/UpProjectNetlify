@@ -2,6 +2,7 @@
 .containerMenu{
     position: fixed;
     width: 100%;
+    z-index: 66666;
 }
 .iconMenu{
     width: calc(20rem - 10vmin);
@@ -11,30 +12,18 @@
 }
 @keyframes boxIcon {
     0%{
-        box-shadow: 6px 1px 84px 11px #f2e700, 5px 5px 10px 1px rgb(238, 233, 233);
+        box-shadow: 6px 1px 24px 11px #011e6b, 5px 5px 10px 1px rgb(238, 233, 233);
     }
     50%{
-        box-shadow: 6px 1px 84px 11px #f0efe6, 5px 5px 10px 1px rgb(235, 231, 231);
+        box-shadow: 6px 1px 24px 11px #f0efe6, 5px 5px 10px 1px rgb(235, 231, 231);
 
     }
 
     100%{
-        box-shadow: 6px 1px 84px 11px #f2e700, 5px 5px 10px 1px rgb(218, 211, 211);
+        box-shadow: 6px 1px 24px 11px #011e6b, 5px 5px 10px 1px rgb(218, 211, 211);
     }
 }
-@keyframes boxMenu {
-    0%{
-        box-shadow: 3px 1px 20px 6px #4100f2, 2.5px 2.5px 2.5px 1px rgb(238, 233, 233);
-    }
-    50%{
-        box-shadow: 3px 1px 20px 6px #f0efe6, 2.5px 2.5px 2.5px 1px rgb(235, 231, 231);
 
-    }
-
-    100%{
-        box-shadow: 3px 1px 20px 6px #1800f2, 2.5px 2.5px 2.5px 1px rgb(218, 211, 211);
-    }
-}
 
 .brand{
     width: calc(100% - 8vmin);
@@ -58,3 +47,10 @@
     }
  }
  
+ body{
+     background: #000;
+ }
+
+ .scale-up-hor-right{-webkit-animation:scale-up-hor-right .8s cubic-bezier(.39,.575,.565,1.000) both;animation:scale-up-hor-right .8s cubic-bezier(.39,.575,.565,1.000) both}
+
+ @-webkit-keyframes scale-up-hor-right{0%{-webkit-transform:scaleX(.4);transform:scaleX(.4);-webkit-transform-origin:100% 100%;transform-origin:100% 100%}100%{-webkit-transform:scaleX(1);transform:scaleX(1);-webkit-transform-origin:100% 100%;transform-origin:100% 100%}}@keyframes scale-up-hor-right{0%{-webkit-transform:scaleX(.4);transform:scaleX(.4);-webkit-transform-origin:100% 100%;transform-origin:100% 100%}100%{-webkit-transform:scaleX(1);transform:scaleX(1);-webkit-transform-origin:100% 100%;transform-origin:100% 100%}}
